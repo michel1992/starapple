@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+}
+#container{
+    margin: 0 auto;
+    width: 800px;
+}
+#header{
+    height: 130px; 
+}
+#logo{
+    float: left;
+    background-image: url('../afbeelding/logo.png');
+    height: 129px;
+    width: 225px;
+}
+#headernaam{
+    font-family: 'Comic Sans MS';
+    font-size: 64px;
+    float: left;
+    height: 66px;
+    margin-top: 40px;
+    width: 350px;     
+}
+#hidden_text_check{
+    visibility: hidden;
+}
+#content{
+    border:  solid black 1px;
+    min-height: 500px; 
+    padding-top: 20px;
+    padding-left: 175px;  
+    padding-right: 175px;
+    font-family: 'arial';
+    font-size: 14px; 
+    overflow: hidden;  
+}
+#afbeelding{
+    width: 400px;   
+}
+#afbeelding > img{
+    height: 300px;
+    width: 300px;
+    margin-left:50px;
+    margin-right:50px;
+}
+#naam{
+    width: 400px;
+    font-size: 26px;
+    text-align: center;
+}
+.activiteitentextdetail{
+    width: 290px;
+    height: 50px;
+    max-width: 290px;
+    max-height: 50px;
+    min-width: 290px;
+    min-height: 50px; 
+}
+.activiteitentext{
+    width: 400px;
+    height: 50px;
+    max-width: 400px;
+    max-height: 50px;
+    min-width: 400px;
+    min-height: 50px;
+}
+.titelpersoon{
+    border-bottom: solid 1px black ;
+    width: 405px; 
+    margin-bottom: 5px;   
+    margin-top: 5px;   
+}
+.titelpersoon > div{
+    float: right; 
+
+}
+.activiteittiteldetail{
+    float: left;
+    width: 70px; 
+}
+.labelpersoon{
+    width : 200px;
+    margin-right:50px;
+    float: left;
+    text-align: right;
+    padding-top: 1px ;  
+}
+.inputpersoon{
+    width : 150px; 
+    float: left; 
+}
+.inputpersoon > input{
+    margin-top: 11px;
+}
+.labelpersoon > div{ 
+    margin-top: 15px; 
+}
+.disabled {
+    color: red;
+}
+.enabled {
+    color: green;
+}
+.inputfout{
+    border-color: red;
+    color: red;
+}

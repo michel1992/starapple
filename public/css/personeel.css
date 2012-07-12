@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+}
+#container{
+    margin: 0 auto;
+    width: 800px;
+}
+#header{
+    height: 130px; 
+}
+#logo{
+    float: left;
+    background-image: url('../afbeelding/logo.png');
+    height: 129px;
+    width: 225px;
+}
+#headernaam{
+    font-family: 'Comic Sans MS';
+    font-size: 46px;
+    float: left;
+    height: 66px;
+    margin-top: 63px;
+    width: 350px;
+}
+#zoeken{
+    float: left;
+    height: 129px;
+    width: 225px;   
+}
+#content{
+    min-height: 500px; 
+    padding: 10px;
+    border:  solid black 1px; 
+    overflow: hidden; 
+}
+.personeeltabel{
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+.personeeltabel >div img{
+    height: 100px;
+    width: 100px;
+}
